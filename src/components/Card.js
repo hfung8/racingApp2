@@ -120,7 +120,6 @@ class Card extends Component {
 
     return (
       <div className="card">
-        <div>current city: </div>
         <div>current condition: {current_condition}</div>
         <div>date: {date} </div>
         <img />
