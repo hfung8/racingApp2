@@ -27,7 +27,7 @@ class Form extends Component {
     }
 
     // call api
-    let res = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?q=${city},us&mode=json&APPID=15bdb8e5cba4bd366ba1d80fec52d8ab`);
+    let res = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city},us&mode=json&APPID=15bdb8e5cba4bd366ba1d80fec52d8ab`);
     
     let list = res.data.list;
 
